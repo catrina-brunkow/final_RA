@@ -395,7 +395,7 @@ def download():
     # Get the query to build a dataset for download
     content = session.get('content')
     # Load the master dataset to build the results from
-    data = pd.read_csv('wds_gaia_master.csv', index_col=0)
+    data = pd.read_csv('wds_gaia_master1.csv', index_col=0)
 
     # Query by WDS Name
     if content['WDS_name']:
